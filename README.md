@@ -1,4 +1,4 @@
-# https://cdemzy.github.io/index.html
+# https://cdemzy.github.io
 
  2.0 - Major Update (January 14, 2023)
 

@@ -18,8 +18,10 @@ body{
 .primed{
     color: var(--primary-text-color);
 }
-nav ul{
+
+ul{
     list-style-type: none;
+    padding-left: 0;
 }
 
 nav a{
@@ -68,6 +70,7 @@ img#pfp{
 div#top-section-layout{
     display: flex;
     flex-direction: row;
+    gap: 1.5em;
 }
 
 div#top-section-layout > ul {
@@ -92,4 +95,56 @@ p#connect-home{
     display: flex;
     flex-direction: row;
     gap: 1em;
+}
+
+p#connect-home a{
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+
+p#connect-home a:hover{
+    color: var(--primary-text-color);
+}
+
+ul{
+
+}
+
+@media screen and (max-width: 1200px) {
+    body{
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body{
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    body{
+        width: 94vw;
+    }
+
+    img#pfp{
+        width: 90px;
+        height: 90px;
+    }
+
+    div#top-section-layout > ul {
+        margin-top: 0.5em;
+    }
 }

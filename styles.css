@@ -2,7 +2,7 @@
 
 :root{
     --main-color: #1a1c1d;
-    --primary-text-color: #c1c4cc;
+    --primary-text-color: #e7e7e7;
     --secondary-text-color: #919191;
 }
 
@@ -15,6 +15,9 @@ body{
     color: var(--secondary-text-color);
 }
 
+.primed{
+    color: var(--primary-text-color);
+}
 nav ul{
     list-style-type: none;
 }
@@ -52,7 +55,7 @@ h1{
     color: var(--primary-text-color);
 }
 
-section#top-section > p#caption{
+section.top-section > p#caption{
     margin-top: 0;
 }
 

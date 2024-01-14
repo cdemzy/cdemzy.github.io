@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
-    --main-color: #1a1c1d;
+    --main-color: #131313;
     --primary-text-color: #e7e7e7;
     --secondary-text-color: #919191;
+    --button-bg-color: #2e2e2e ;
 }
 
 body{
-    width: 30vw;
+    width: 800px;
     margin: 0 auto;
     background-color: var(--main-color);
     color:var(--text-color);
@@ -106,33 +107,16 @@ p#connect-home a:hover{
     color: var(--primary-text-color);
 }
 
-@media screen and (max-width: 1200px) {
-    body{
-        width: 40vw;
-    }
-}
 
-@media screen and (max-width: 900px) {
-    body{
-        width: 50vw;
-    }
-}
-
-@media screen and (max-width: 720px) {
-    body{
-        width: 60vw;
-    }
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     body{
         width: 80vw;
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 440px) {
     body{
-        width: 94vw;
+        width: 390px;
     }
 
     img#pfp{
@@ -143,4 +127,80 @@ p#connect-home a:hover{
     div#top-section-layout > ul {
         margin-top: 0.5em;
     }
+}
+
+@media screen and (min-width: 360px)and (max-width: 400px) {
+    body{
+        width: 360px;
+    }
+
+    img#pfp{
+        width: 90px;
+        height: 90px;
+    }
+
+    div#top-section-layout > ul {
+        margin-top: 0.5em;
+    }
+}
+
+ul.gear-list img{
+    width: 70px;
+    height: 70px;
+    border-radius: 15px;
+    float: left;
+}
+
+ul.gear-list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    margin-bottom: 5em;
+}
+
+ul.gear-list > li p.desc{
+    font-size: 11pt;
+    margin-top: 0;
+}
+
+ul.gear-list p{
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+ul.gear-list > li p{
+    clear: right;
+}
+
+ul.gear-list > li p.primed{
+    font-weight: lighter;
+}
+
+button.get-b{
+    border-radius: 15px;
+    width: 50px;
+    height: 25px;
+    margin-top: 1em;
+    color: var(--primary-text-color);
+    background-color: var(--button-bg-color);
+    border: none;
+}
+
+div.gear-list-layout{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+div#first-it{
+    flex: 1;
+}
+
+
+section > p.sec-title{
+    padding-bottom: 2em;
+}
+
+section.top-section{
+    margin-bottom: 5em;
 }

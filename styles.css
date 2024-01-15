@@ -1,23 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root{
-    --main-color: #131313;
-    --primary-text-color: #e7e7e7;
-    --secondary-text-color: #919191;
-    --button-bg-color: #2e2e2e ;
+    --light-bg: #ffffff;
+    --dark-bg: #131313;
+    --light-primary-text-color: #000000;
+    --light-secondary-text-color: #6d6d6d;
+    --dark-secondary-text-color: #919191;
+    --light-button-bg-color: #e2e2e2 ;
+    --dark-button-bg-color: #2e2e2e ;
 }
 
 body{
     width: 800px;
     margin: 0 auto;
-    background-color: var(--main-color);
+    background-color: var(--light-color);
     color:var(--text-color);
     font-family: 'Open Sans';
     color: var(--secondary-text-color);
 }
 
 .primed{
-    color: var(--primary-text-color);
+    color: var(--light-primary-text-color);
 }
 
 ul{
@@ -31,7 +34,7 @@ nav a{
 }
 
 nav a:hover{
-    color: white;
+    color: grey;
 }
 
 li#logo{
@@ -60,7 +63,7 @@ h1{
     padding-top: 5vh;
     color: var(--main-text-color);
     margin-bottom: 0;
-    color: var(--primary-text-color);
+    color: var(--light-primary-text-color);
 }
 
 section.top-section > p#caption{
@@ -84,7 +87,7 @@ div#top-section-layout > ul {
 }
 
 p#intro{
-    color: var(--primary-text-color);
+    color: var(--light-primary-text-color);
 }
 
 div#top-section-layout > ul li img{
@@ -109,7 +112,7 @@ p#connect-home a{
 }
 
 p#connect-home a:hover{
-    color: var(--primary-text-color);
+    color: var(--light-primary-text-color);
 }
 
 
@@ -166,6 +169,7 @@ ul.gear-list{
 ul.gear-list > li p.desc{
     font-size: 11pt;
     margin-top: 0;
+    color: var(--light-secondary-text-color);
 }
 
 ul.gear-list p{
@@ -187,7 +191,7 @@ button.get-b{
     height: 25px;
     margin-top: 1em;
     color: var(--primary-text-color);
-    background-color: var(--button-bg-color);
+    background-color: var(--light-button-bg-color);
     border: none;
 }
 
@@ -208,4 +212,8 @@ section > p.sec-title{
 
 section.top-section{
     margin-bottom: 5em;
+}
+
+span > a:hover{
+    border-bottom: 1px solid black;
 }

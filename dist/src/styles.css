@@ -240,3 +240,6 @@ img#moon, #sun{
     margin-left: 0px;
 }
 
+.display-none{
+    display: none;
+}

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.850b49c8.css",
-    "main.js": "/static/js/main.5f00de8d.js",
+    "main.js": "/static/js/main.ef16b5fb.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/c5.png": "/static/media/c5.44238c0da3bad30e2993.png",
     "static/media/c3.png": "/static/media/c3.fab1318bcd28fba277da.png",
@@ -47,11 +47,11 @@
     "static/media/dal-logo.png": "/static/media/dal-logo.a6ac224a6c0b04547cb8.png",
     "index.html": "/index.html",
     "main.850b49c8.css.map": "/static/css/main.850b49c8.css.map",
-    "main.5f00de8d.js.map": "/static/js/main.5f00de8d.js.map",
+    "main.ef16b5fb.js.map": "/static/js/main.ef16b5fb.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.850b49c8.css",
-    "static/js/main.5f00de8d.js"
+    "static/js/main.ef16b5fb.js"
   ]
 }

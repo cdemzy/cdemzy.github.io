@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e983319.css",
-    "main.js": "/static/js/main.78a802ec.js",
-    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "main.css": "/static/css/main.850b49c8.css",
+    "main.js": "/static/js/main.5f00de8d.js",
+    "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/c5.png": "/static/media/c5.44238c0da3bad30e2993.png",
+    "static/media/c3.png": "/static/media/c3.fab1318bcd28fba277da.png",
+    "static/media/c2.png": "/static/media/c2.9b33cf659cb78bf5c08b.png",
+    "static/media/c4.png": "/static/media/c4.f36973423da3125123a3.png",
     "static/media/SF-Pro-Bold.otf": "/static/media/SF-Pro-Bold.0edd1bada269d5887ee1.otf",
     "static/media/SF-Pro.otf": "/static/media/SF-Pro.8d787d56b24a91d245f1.otf",
     "static/media/airpods-pro.png": "/static/media/airpods-pro.70bb3610b73932e1b532.png",
@@ -13,6 +17,7 @@
     "static/media/3060TI.png": "/static/media/3060TI.833a208e28ada47b94b3.png",
     "static/media/hue-lights.png": "/static/media/hue-lights.7bfa8f76b79537fcc074.png",
     "static/media/me-moji.jpg": "/static/media/me-moji.2a5d883bb8104dc1ed22.jpg",
+    "static/media/4000d.png": "/static/media/4000d.ed5442c6daf26ce78328.png",
     "static/media/mbp-14.png": "/static/media/mbp-14.5cb3fa1d868f3a8e8e53.png",
     "static/media/airtag.png": "/static/media/airtag.b8e4223bf5dd6ecc4e6f.png",
     "static/media/notion-t3.jpg": "/static/media/notion-t3.ea9329b7f7735cd24042.jpg",
@@ -28,6 +33,8 @@
     "static/media/sec-monitor.png": "/static/media/sec-monitor.4f1050285de602eff6f6.png",
     "static/media/r5700x.png": "/static/media/r5700x.e9396fe6cf438e100522.png",
     "static/media/cx650f.png": "/static/media/cx650f.e57881142f9039789ac6.png",
+    "static/media/doordash.png": "/static/media/doordash.360da067a915306bedb5.png",
+    "static/media/kingston-a2000.png": "/static/media/kingston-a2000.aa5883da6e2ac7354fe1.png",
     "static/media/youtube.png": "/static/media/youtube.6391c8e1f09dfaa6f282.png",
     "static/media/github-main.png": "/static/media/github-main.3fc5ead9ff318bda611c.png",
     "static/media/mx-master.png": "/static/media/mx-master.1b707cf2cdc4b41e98eb.png",
@@ -37,13 +44,14 @@
     "static/media/g-pro.png": "/static/media/g-pro.a66626a72752884bcff0.png",
     "static/media/notion.png": "/static/media/notion.7aa264a898951e791ee3.png",
     "static/media/q1-pro.png": "/static/media/q1-pro.3a0f305d86627f40eb33.png",
+    "static/media/dal-logo.png": "/static/media/dal-logo.a6ac224a6c0b04547cb8.png",
     "index.html": "/index.html",
-    "main.9e983319.css.map": "/static/css/main.9e983319.css.map",
-    "main.78a802ec.js.map": "/static/js/main.78a802ec.js.map",
-    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+    "main.850b49c8.css.map": "/static/css/main.850b49c8.css.map",
+    "main.5f00de8d.js.map": "/static/js/main.5f00de8d.js.map",
+    "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e983319.css",
-    "static/js/main.78a802ec.js"
+    "static/css/main.850b49c8.css",
+    "static/js/main.5f00de8d.js"
   ]
 }

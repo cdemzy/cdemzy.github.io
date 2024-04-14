@@ -31,7 +31,7 @@ function App() {
 
   return (
     
-    <div class="App text-L-1 dark:text-primary-d transition">
+    <div class="App h-screen text-L-1 dark:text-primary-d transition">
         <Helmet>
           <title>Home</title>
         </Helmet>

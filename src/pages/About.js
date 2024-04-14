@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet'
 
 function About() {
     return (
-        <div class="App text-L-1 dark:text-primary-d transition">
+        <div class="App h-screen text-L-1 dark:text-primary-d transition">
             <Helmet>
                 <title>About</title>
             </Helmet>

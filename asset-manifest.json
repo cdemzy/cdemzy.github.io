@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87a2a435.css",
+    "main.js": "/static/js/main.a50c210a.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/SF-Pro-Bold.otf": "/static/media/SF-Pro-Bold.0edd1bada269d5887ee1.otf",
+    "static/media/SF-Pro.otf": "/static/media/SF-Pro.8d787d56b24a91d245f1.otf",
+    "static/media/me-moji.jpg": "/static/media/me-moji.2a5d883bb8104dc1ed22.jpg",
+    "static/media/notion-t3.jpg": "/static/media/notion-t3.ea9329b7f7735cd24042.jpg",
+    "static/media/notion-t4.jpg": "/static/media/notion-t4.19d2408b60f10c241ce2.jpg",
+    "static/media/notion-t1.jpg": "/static/media/notion-t1.21d9153ebb8dd86d3014.jpg",
+    "static/media/notion-t2.jpg": "/static/media/notion-t2.5b9ce7a642f5578c31fa.jpg",
+    "static/media/youtube.png": "/static/media/youtube.6391c8e1f09dfaa6f282.png",
+    "static/media/github-main.png": "/static/media/github-main.3fc5ead9ff318bda611c.png",
+    "static/media/g2.jpg": "/static/media/g2.a37cd1e82ed212a93bcd.jpg",
+    "static/media/g1.jpg": "/static/media/g1.39262c8a10d5eb40beed.jpg",
+    "static/media/linkedin.png": "/static/media/linkedin.69c088872ac91555e953.png",
+    "static/media/notion.png": "/static/media/notion.7aa264a898951e791ee3.png",
+    "index.html": "/index.html",
+    "main.87a2a435.css.map": "/static/css/main.87a2a435.css.map",
+    "main.a50c210a.js.map": "/static/js/main.a50c210a.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87a2a435.css",
+    "static/js/main.a50c210a.js"
+  ]
+}

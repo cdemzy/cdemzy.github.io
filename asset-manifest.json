@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.f79961ad.css",
-    "main.js": "/static/js/main.808ba615.js",
+    "main.css": "/static/css/main.9e2195e4.css",
+    "main.js": "/static/js/main.2660dae6.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
-    "static/media/c5.png": "/static/media/c5.44238c0da3bad30e2993.png",
+    "static/media/c1.png": "/static/media/c1.44238c0da3bad30e2993.png",
     "static/media/c3.png": "/static/media/c3.fab1318bcd28fba277da.png",
-    "static/media/c2.png": "/static/media/c2.9b33cf659cb78bf5c08b.png",
-    "static/media/c4.png": "/static/media/c4.f36973423da3125123a3.png",
+    "static/media/c4.png": "/static/media/c4.9b33cf659cb78bf5c08b.png",
+    "static/media/c2.png": "/static/media/c2.f36973423da3125123a3.png",
     "static/media/SF-Pro-Bold.otf": "/static/media/SF-Pro-Bold.0edd1bada269d5887ee1.otf",
     "static/media/SF-Pro.otf": "/static/media/SF-Pro.8d787d56b24a91d245f1.otf",
     "static/media/airpods-pro.png": "/static/media/airpods-pro.70bb3610b73932e1b532.png",
@@ -21,10 +21,14 @@
     "static/media/mbp-14.png": "/static/media/mbp-14.5cb3fa1d868f3a8e8e53.png",
     "static/media/airtag.png": "/static/media/airtag.b8e4223bf5dd6ecc4e6f.png",
     "static/media/notion-t3.jpg": "/static/media/notion-t3.ea9329b7f7735cd24042.jpg",
+    "static/media/back-paper.jpg": "/static/media/back-paper.8c888670a5f3dc9c1483.jpg",
     "static/media/notion-t4.jpg": "/static/media/notion-t4.19d2408b60f10c241ce2.jpg",
+    "static/media/back-paper2.jpg": "/static/media/back-paper2.19fa084a79579c75b536.jpg",
     "static/media/notion-t1.jpg": "/static/media/notion-t1.21d9153ebb8dd86d3014.jpg",
     "static/media/notion-t2.jpg": "/static/media/notion-t2.5b9ce7a642f5578c31fa.jpg",
     "static/media/ml240L.png": "/static/media/ml240L.285b0e7f8b9ec506ea03.png",
+    "static/media/back-paper-sq.jpg": "/static/media/back-paper-sq.8edb5fd6ef18937e4f61.jpg",
+    "static/media/back-paper-sq2.jpg": "/static/media/back-paper-sq2.a138126daca140646576.jpg",
     "static/media/UB500.png": "/static/media/UB500.939d1a2821f70d228d40.png",
     "static/media/magsafe-case.png": "/static/media/magsafe-case.51421a11b69ca56f1b4a.png",
     "static/media/main-monitor.png": "/static/media/main-monitor.4f1b91592601bb4f855e.png",
@@ -56,12 +60,12 @@
     "static/media/q1-pro.png": "/static/media/q1-pro.3a0f305d86627f40eb33.png",
     "static/media/dal-logo.png": "/static/media/dal-logo.a6ac224a6c0b04547cb8.png",
     "index.html": "/index.html",
-    "main.f79961ad.css.map": "/static/css/main.f79961ad.css.map",
-    "main.808ba615.js.map": "/static/js/main.808ba615.js.map",
+    "main.9e2195e4.css.map": "/static/css/main.9e2195e4.css.map",
+    "main.2660dae6.js.map": "/static/js/main.2660dae6.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f79961ad.css",
-    "static/js/main.808ba615.js"
+    "static/css/main.9e2195e4.css",
+    "static/js/main.2660dae6.js"
   ]
 }

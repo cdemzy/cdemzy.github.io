@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9e2195e4.css",
-    "main.js": "/static/js/main.2660dae6.js",
+    "main.css": "/static/css/main.d48c8b40.css",
+    "main.js": "/static/js/main.40f53451.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/c1.png": "/static/media/c1.44238c0da3bad30e2993.png",
     "static/media/c3.png": "/static/media/c3.fab1318bcd28fba277da.png",
@@ -60,12 +60,12 @@
     "static/media/q1-pro.png": "/static/media/q1-pro.3a0f305d86627f40eb33.png",
     "static/media/dal-logo.png": "/static/media/dal-logo.a6ac224a6c0b04547cb8.png",
     "index.html": "/index.html",
-    "main.9e2195e4.css.map": "/static/css/main.9e2195e4.css.map",
-    "main.2660dae6.js.map": "/static/js/main.2660dae6.js.map",
+    "main.d48c8b40.css.map": "/static/css/main.d48c8b40.css.map",
+    "main.40f53451.js.map": "/static/js/main.40f53451.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e2195e4.css",
-    "static/js/main.2660dae6.js"
+    "static/css/main.d48c8b40.css",
+    "static/js/main.40f53451.js"
   ]
 }

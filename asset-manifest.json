@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ef625198.css",
-    "main.js": "/static/js/main.def663f7.js",
+    "main.css": "/static/css/main.4c419571.css",
+    "main.js": "/static/js/main.c0bf4b15.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/c1.png": "/static/media/c1.44238c0da3bad30e2993.png",
     "static/media/c3.png": "/static/media/c3.fab1318bcd28fba277da.png",
@@ -10,6 +10,7 @@
     "static/media/SF-Pro-Bold.otf": "/static/media/SF-Pro-Bold.0edd1bada269d5887ee1.otf",
     "static/media/SF-Pro.otf": "/static/media/SF-Pro.8d787d56b24a91d245f1.otf",
     "static/media/sp120.png": "/static/media/sp120.94e5abb1a5ef16c53b7b.png",
+    "static/media/Mockup-Flappy1.png": "/static/media/Mockup-Flappy1.f9a644e816c55aaddf39.png",
     "static/media/msi-b550.png": "/static/media/msi-b550.aa383d867907b037b760.png",
     "static/media/ip-13-pro.png": "/static/media/ip-13-pro.e3e116f915275805c772.png",
     "static/media/3060TI.png": "/static/media/3060TI.b7b2fc1a4bb575ef3705.png",
@@ -60,12 +61,12 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/dal-logo.png": "/static/media/dal-logo.a6ac224a6c0b04547cb8.png",
     "index.html": "/index.html",
-    "main.ef625198.css.map": "/static/css/main.ef625198.css.map",
-    "main.def663f7.js.map": "/static/js/main.def663f7.js.map",
+    "main.4c419571.css.map": "/static/css/main.4c419571.css.map",
+    "main.c0bf4b15.js.map": "/static/js/main.c0bf4b15.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef625198.css",
-    "static/js/main.def663f7.js"
+    "static/css/main.4c419571.css",
+    "static/js/main.c0bf4b15.js"
   ]
 }

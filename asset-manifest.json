@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d7aeb8b.css",
-    "main.js": "/static/js/main.f5e44dad.js",
+    "main.css": "/static/css/main.fdae4167.css",
+    "main.js": "/static/js/main.a74f95f8.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/SF-Pro-Bold.otf": "/static/media/SF-Pro-Bold.0edd1bada269d5887ee1.otf",
     "static/media/SF-Pro.otf": "/static/media/SF-Pro.8d787d56b24a91d245f1.otf",
@@ -50,12 +50,12 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/dal-logo.png": "/static/media/dal-logo.a6ac224a6c0b04547cb8.png",
     "index.html": "/index.html",
-    "main.5d7aeb8b.css.map": "/static/css/main.5d7aeb8b.css.map",
-    "main.f5e44dad.js.map": "/static/js/main.f5e44dad.js.map",
+    "main.fdae4167.css.map": "/static/css/main.fdae4167.css.map",
+    "main.a74f95f8.js.map": "/static/js/main.a74f95f8.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d7aeb8b.css",
-    "static/js/main.f5e44dad.js"
+    "static/css/main.fdae4167.css",
+    "static/js/main.a74f95f8.js"
   ]
 }

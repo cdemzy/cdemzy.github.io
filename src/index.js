@@ -6,8 +6,6 @@ import App from './App';
 import About from './pages/About';
 import Gear from './pages/Gear';
 import Projects from './pages/Projects';
-import Notion from './pages/Notion';
-import NoPage from './pages/NoPage';
 import Blog from './pages/Blog';
 import FlappyBird from './pages/project-pages/FlappyBird';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
@@ -28,14 +26,6 @@ const router = createBrowserRouter([
   {
     path: "projects",
     element: <Projects/>,
-  },
-  {
-    path: "notion",
-    element: <Notion/>,
-  },
-  {
-    path: "nopage",
-    element: <NoPage/>,
   },
   {
     path: "blog",

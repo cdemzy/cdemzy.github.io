@@ -25,7 +25,7 @@ function PCSection() {
     return (
         <section className='pc-section mt-10'>
             <p className='title text-L-2 dark:text-secondary-d'>Personal Computer Build</p>
-            <div className='mt-7 grid grid-rows-10 sm:grid-cols-2'>
+            <div className='mt-7 grid grid-rows-10 sm:grid-rows-1 sm:grid-cols-2'>
                 {/* PC 1 */}
                 <div
                     className={`pb-7 sm:pr-5 grid grid-cols-4 ${hoveredIndex === null || hoveredIndex === 0 ? 'opacity-100' : 'opacity-50'}`}

@@ -29,7 +29,7 @@ function Showcase() {
 
 
                 {/* Notion Box */}
-                <Link to="/notion" className='notion-box col-span-2 w-full glow-border border-solid border-gray-300 dark:bg-g-2 border dark:border-g-1 rounded-2xl flex flex-row gap-6 p-5 shadow-md' onMouseMove={handleMouseMove}>
+                {/* <Link to="/notion" className='notion-box col-span-2 w-full glow-border border-solid border-gray-300 dark:bg-g-2 border dark:border-g-1 rounded-2xl flex flex-row gap-6 p-5 shadow-md' onMouseMove={handleMouseMove}>
                     <div className='w-[120px]'>
                         <img className='w-10 rounded-lg' src={notion} alt='notion logo' />
                         <div className='text-L-2 pt-1'>Notion</div>
@@ -42,7 +42,7 @@ function Showcase() {
                         <img className='rounded-lg sm:w-full' src={notionPic3} alt='notion 3'></img>
                         <img className='rounded-lg sm:w-full hidden sm:block' src={notionPic4} alt='notion 4'></img>
                     </div>
-                </Link>
+                </Link> */}
 
                 {/* Linkedin Box */}
                 <div className='linkedin-box glow-border border-solid border-gray-300 dark:bg-g-2 border dark:border-g-1 rounded-2xl p-5 shadow-md w-full' onMouseMove={handleMouseMove}>

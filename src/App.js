@@ -1,10 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Header from './components/Header'
-import Showcase from './components/Showcase'
-import memoji from './assets/images/me-moji.jpg';
+// import Showcase from './components/Showcase'
+import AboutInfo from './components//about-sections/AboutInfo'
+import About from './pages/About'
+import memoji from './assets/images/other-images/me-moji.png';
 import { Helmet } from 'react-helmet'
 
 function App() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
@@ -30,51 +36,43 @@ function App() {
   };
 
   return (
-    
-    <div class="App h-screen text-L-1 dark:text-primary-d transition">
+    <div class="App w-[375px] sm:w-[630px] md:w-[700px] mx-auto h-screen text-L-1 dark:text-primary-d transition light-scrollbar dark:dark-scrollbar">
         <Helmet>
           <title>Home</title>
         </Helmet>
-        <Header/>
-        <div style={{width: '700px', margin: '0 auto'}}>
+        <header class='fixed pt-4 pb-2 top-0 left-0 w-full bg-white dark:bg-black flex justify-center items-center z-10'>
+          <Header/>
+        </header>
           
-          <main class="animate-in mt-16">
-            <h1 className='animate-in text-h1-L dark:text-primary-d font-semibold'>Charles Dela Cruz</h1>
-            {/* <p class="animate-in text-L-2 dark:text-secondary-d" style={{ '--index': .8 }}>Second Year Computer Science Student</p> */}
+        <main class="animate-in pt-36 w-[375px] sm:w-[630px] md:w-[700px] px-6 sm:px-0">
+          <h1 className='animate-in text-h1-L dark:text-primary-d font-semibold'>Charles Dela Cruz</h1>
 
-            <section class='animate-in mt-5 flex flex-row gap-7 text-L-2'>
-              <img class='rounded-full' width='100px' src={memoji} alt="memoji" />
+          <section class='animate-in mt-5 flex flex-row gap-7 text-L-2 dark:text-secondary-d'>
+            <img class='bg-[#e5e7eb] dark:bg-g-1 rounded-full transition-transform transform hover:scale-125 w-[100px] h-[100px] mode-btn' src={memoji} alt="memoji" />
 
+            <ul className="info-side flex flex-col justify-center">
+              {['Dalhousie University', 'Aspiring Developer', 'Tech Enthusiast'].map((item, index) => (
+                <li
+                  key={index}
+                  className={`group flex flex-row gap-2 items-center ${
+                    hoveredIndex === null || hoveredIndex === index ? 'opacity-100' : 'opacity-50'
+                  }`}
+                  onMouseOver={() => handleMouseOver(index)}
+                  onMouseOut={ handleMouseOut }
+                >
+                  <ion-icon name={getIconName(index)}></ion-icon>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
 
-              <ul className="info-side flex flex-col justify-center">
-                {['Dalhousie University', 'Aspiring Developer', 'Tech Enthusiast'].map((item, index) => (
-                  <li
-                    key={index}
-                    className={`group flex flex-row gap-2 items-center ${
-                      hoveredIndex === null || hoveredIndex === index ? 'opacity-100' : 'opacity-50'
-                    }`}
-                    onMouseOver={() => handleMouseOver(index)}
-                    onMouseOut={handleMouseOut}
-                  >
-                    <ion-icon name={getIconName(index)}></ion-icon>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
+          </section>
 
-            </section>
-            <p class='animate-in mt-5 dark:text-secondary-d' style={{ '--index': .5 }}>
-              Hey there, I'm Charles, a Computer Science student at Dalhousie University who thrives on building cool stuff with code! 
-              Passionate about tech and creative problem-solving. Always evolving and expanding my skills!
-            </p>
+          <AboutInfo/>
+          <About/>
+        </main>
 
-            {/* <section class='mt-3 text-L-2'>
-              <span><a class='hover:underline underline-offset-4' href='mailto:cdelacruz@dal.ca'>↗ Send an Email</a></span>
-            </section> */}
-            
-            <Showcase/>
-          </main>
-        </div>
+        
     </div>
   )
 }

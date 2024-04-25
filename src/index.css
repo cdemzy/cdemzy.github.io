@@ -1,47 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
 @font-face{
-    font-family: mainFont;
-    src: url(/src/assets/SF-Pro.otf);
-  }
+  font-family: mainFont;
+  src: url(/src/assets/fonts/SF-Pro.otf);
+}
+
+@font-face {
+  font-family: boldFont;
+  src: url(/src/assets/fonts/SF-Pro-Bold.otf);
+}
+
+:root {
+  --boxBg: #2a2a2a;
+  --boxBgL: #e5e7eb;
+}
+
+.pj-title{
+  font-family: boldFont;
+}
   
-  @font-face {
-    font-family: boldFont;
-    src: url(/src/assets/SF-Pro-Bold.otf);
-  }
-  
-  :root {
-    --boxBg: #2a2a2a;
-    --boxBgL: #e5e7eb;
-  }
-  
-  .App{
-    font-family: mainFont;
-  }
-  
-  h1{
-    font-family: boldFont;
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-  
-  .mode-btn{
-    box-shadow:
-      inset 0 8px 60px rgba(0,0,0,.1),
-      inset 0 8px 8px rgba(0,0,0,.1),
-      inset 0 -4px 4px rgba(0,0,0,.1);
-  }
-  
-  
-  @media screen and (min-width:700px) {
-    
-  }
-  
-  a{
-    text-decoration: none;
-  }
+.tech{
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.App{
+  font-family: mainFont;
+  max-width: 100%;
+}
+
+h1{
+  font-family: boldFont;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.mode-btn{
+  box-shadow:
+    inset 0 8px 60px rgba(0,0,0,.1),
+    inset 0 8px 8px rgba(0,0,0,.1),
+    inset 0 -4px 4px rgba(0,0,0,.1);
+}
+
+
+a{
+  text-decoration: none;
+}
 
 /* Define the animation */
 @keyframes fadeInUp {
@@ -81,4 +89,109 @@
 
 .glow-border:hover::before {
     opacity: 1;
+}
+
+.glow-border-sm {
+  position: relative;
+}
+
+.glow-border-sm::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  background: radial-gradient(600px circle at var(--mouse-x, 20%) var(--mouse-y, 20%), rgb(255, 255, 255, 0.07), transparent 30%);
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.glow-border-sm:hover::before {
+  opacity: 1;
+}
+
+/* Adjust the selector as needed */
+.relative:hover .absolute {
+  display: block;
+}
+
+/* Adjust tooltip styles as needed */
+.absolute {
+  display: none;
+  /* Position the tooltip relative to the parent */
+  /* Add more styling as needed */
+}
+
+/* Default scrollbar styles */
+:root {
+  --scrollbar-thumb-color: #a0aec0;
+  --scrollbar-track-color: #edf2f7;
+}
+
+/* Dark mode scrollbar styles */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --scrollbar-thumb-color: #cbd5e0; /* Dark mode thumb color */
+    --scrollbar-track-color: #4a5568; /* Dark mode track color */
+  }
+}
+
+/* Apply scrollbar styles */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color); /* Set the color of the thumb */
+  border-radius: 4px; /* Set the border radius of the thumb */
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track-color); /* Set the color of the track */
+}
+
+.pic-con:hover{
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.radial-glow {
+  background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 100%);
+}
+
+.box-shdw{
+  box-shadow:
+      inset 0 8px 60px rgba(0,0,0,.1),
+      inset 0 8px 8px rgba(0,0,0,.1),
+      inset 0 -4px 4px rgba(0,0,0,.1);
+}
+
+.dsble-click {
+  pointer-events: none;
+}
+
+@media screen and (max-width:768px){
+  
+}
+
+.navbar-list-drop {
+  position: absolute;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.navbar-list-drop.active {
+  max-height: 205px; /* Adjust this value to the maximum height you want for the dropdown */
+}
+
+.navbar-li:hover{
+  box-shadow:
+      inset 0 8px 60px rgba(0,0,0,.1),
+      inset 0 8px 8px rgba(0,0,0,.1),
+      inset 0 -4px 4px rgba(0,0,0,.1);
 }

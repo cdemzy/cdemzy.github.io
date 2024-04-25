@@ -8,6 +8,8 @@ import Gear from './pages/Gear';
 import Projects from './pages/Projects';
 import Notion from './pages/Notion';
 import NoPage from './pages/NoPage';
+import Blog from './pages/Blog';
+import FlappyBird from './pages/project-pages/FlappyBird';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 const router = createBrowserRouter([
@@ -34,6 +36,14 @@ const router = createBrowserRouter([
   {
     path: "nopage",
     element: <NoPage/>,
+  },
+  {
+    path: "blog",
+    element: <Blog/>,
+  },
+  {
+    path: "projects/flappybird",
+    element: <FlappyBird/>,
   },
 ]);
 

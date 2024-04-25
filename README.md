@@ -1,2 +1,2 @@
 # My Personal Portfolio :]
-## https://cdemzy.github.com
+## https://cdemzy.github.io

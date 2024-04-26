@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.fdae4167.css",
-    "main.js": "/static/js/main.a74f95f8.js",
+    "main.css": "/static/css/main.e31334de.css",
+    "main.js": "/static/js/main.f565d6c9.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/SF-Pro-Bold.otf": "/static/media/SF-Pro-Bold.0edd1bada269d5887ee1.otf",
     "static/media/SF-Pro.otf": "/static/media/SF-Pro.8d787d56b24a91d245f1.otf",
+    "static/media/Mockup-Flappy2.png": "/static/media/Mockup-Flappy2.b9911e20bd8e9a70ffdb.png",
     "static/media/sp120.png": "/static/media/sp120.94e5abb1a5ef16c53b7b.png",
     "static/media/harajuku.jpg": "/static/media/harajuku.61e8bf96f4694d7066a4.jpg",
     "static/media/Mockup-Flappy1.png": "/static/media/Mockup-Flappy1.f9a644e816c55aaddf39.png",
@@ -50,12 +51,12 @@
     "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "static/media/dal-logo.png": "/static/media/dal-logo.a6ac224a6c0b04547cb8.png",
     "index.html": "/index.html",
-    "main.fdae4167.css.map": "/static/css/main.fdae4167.css.map",
-    "main.a74f95f8.js.map": "/static/js/main.a74f95f8.js.map",
+    "main.e31334de.css.map": "/static/css/main.e31334de.css.map",
+    "main.f565d6c9.js.map": "/static/js/main.f565d6c9.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fdae4167.css",
-    "static/js/main.a74f95f8.js"
+    "static/css/main.e31334de.css",
+    "static/js/main.f565d6c9.js"
   ]
 }

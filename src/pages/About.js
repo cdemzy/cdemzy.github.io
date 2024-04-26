@@ -46,9 +46,9 @@ function About() {
     
 
     return (
-        <div class="App h-screen text-L-1 dark:text-primary-d transition">
+        <div class="App h-full text-L-1 dark:text-primary-d transition">
 
-            <div class="animate-in pt-10 pb-10 md:w-[700px]">
+            <div class="animate-in pt-10 md:w-[700px]">
 
                 <section class='photos mb-0 sm:mb-20 flex items-center justify-center'>
                     <Photostack/>

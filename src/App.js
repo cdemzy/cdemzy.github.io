@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <div class="App w-[375px] sm:w-[630px] md:w-[700px] mx-auto h-screen text-L-1 dark:text-primary-d transition light-scrollbar dark:dark-scrollbar">
+    <div class="App w-[375px] sm:w-[630px] md:w-[700px] mx-auto h-screen text-L-1 dark:text-primary-d transition light-scrollbar">
         <Helmet>
           <title>Home</title>
         </Helmet>
@@ -44,7 +44,7 @@ function App() {
           <Header/>
         </header>
           
-        <main class="animate-in pt-36 w-[375px] sm:w-[630px] md:w-[700px] px-6 sm:px-0">
+        <main class="animate-in pt-36 w-[375px] sm:w-[630px] md:w-[700px] px-6 sm:px-0 pb-20">
           <h1 className='animate-in text-h1-L dark:text-primary-d font-semibold'>Charles Dela Cruz</h1>
 
           <section class='animate-in mt-5 flex flex-row gap-7 text-L-2 dark:text-secondary-d'>
@@ -54,14 +54,14 @@ function App() {
               {['Dalhousie University', 'Aspiring Developer', 'Tech Enthusiast'].map((item, index) => (
                 <li
                   key={index}
-                  className={`group flex flex-row gap-2 items-center ${
+                  className={`group flex flex-row gap-2 items-center text-sm sm:text-base ${
                     hoveredIndex === null || hoveredIndex === index ? 'opacity-100' : 'opacity-50'
                   }`}
                   onMouseOver={() => handleMouseOver(index)}
                   onMouseOut={ handleMouseOut }
                 >
                   <ion-icon name={getIconName(index)}></ion-icon>
-                  <span>{item}</span>
+                  <p>{item}</p>
                 </li>
               ))}
             </ul>

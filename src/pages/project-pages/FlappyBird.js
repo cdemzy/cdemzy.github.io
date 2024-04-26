@@ -3,6 +3,7 @@ import Header from '../../components/Header'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom';
 import MockupFlappy1 from '../../assets/images/projects/flappybird/Mockup-Flappy1.png'
+import MockupFlappy2 from '../../assets/images/projects/flappybird/Mockup-Flappy2.png'
 
 function FlappyBird() {
 
@@ -26,11 +27,11 @@ function FlappyBird() {
                 <title>Flappy Bird Project</title>
             </Helmet>
 
-            <header class='fixed pt-4 pb-2 top-0 left-0 w-full bg-white dark:bg-black flex justify-center items-center z-10'>
+            <header class='pt-4 pb-2 top-0 left-0 w-full bg-white dark:bg-black flex justify-center items-center z-10'>
                 <Header/>
             </header>
 
-            <main class="animate-in pt-36 w-[375px] sm:w-[630px] md:w-[700px] mx-auto px-6 sm:px-0 pb-20">
+            <main class="animate-in pt-24 w-[375px] sm:w-[630px] md:w-[700px] mx-auto px-6 sm:px-0 pb-20">
                 <p class="animate-in text-L-2 dark:text-secondary-d">2024 · <a class='hover:underline' href='https://github.com/cdemzy/Flappy-Bird' target='_blank' rel="noreferrer">Visit Project</a> </p>
                 <h1 className='animate-in text-h1-L dark:text-primary-d font-semibold'>Flappy Bird</h1>
 
@@ -38,10 +39,17 @@ function FlappyBird() {
                     An open source game project I started on January 2024 to learn unity for an upcoming course that I took on my second year in university, which involved game development.
                 </p>
 
-                <section class=''>
+                <section class='mockups'>
                     <div class='flex items-center flex-col'>
-                        <img class='bg-w-2 dark:bg-g-5 border dark:border-g-1 box-shdw rounded-xl w-full' src={MockupFlappy1} alt='iPad and iPhone Mockup of the game' />
-                        <p class='mt-2 text-L-2 dark:text-secondary-d'>iPhone main menu & iPad gameplay view mockup.</p>
+                        <img class='bg-w-2 dark:bg-g-5 border dark:border-g-1 box-shdw rounded-xl w-full md:w-[1000px]' src={MockupFlappy1} alt='iPad and iPhone view of the game' />
+                        <p class='mt-2 text-L-2 dark:text-secondary-d text-sm '>iPhone main menu & iPad gameplay view.</p>
+                    </div>
+                </section>
+
+                <section class='mockups pt-5'>
+                    <div class='flex items-center flex-col'>
+                        <img class='bg-w-2 dark:bg-g-5 border dark:border-g-1 box-shdw rounded-xl w-full md:w-[1000px]' src={MockupFlappy2} alt='Macbook view of the game' />
+                        <p class='mt-2 text-L-2 dark:text-secondary-d text-sm'>Macbook gameplay view.</p>
                     </div>
                 </section>
 

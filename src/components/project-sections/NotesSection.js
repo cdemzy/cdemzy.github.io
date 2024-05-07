@@ -1,0 +1,40 @@
+import React from 'react'
+import { Link } from 'react-router-dom';
+import mb1 from '../../assets/images/projects/notes/MB-M1.png'
+
+function NotesSection() {
+
+    // Handle mouse move event to track mouse position
+    const handleMouseMove = (e) => {
+        const { currentTarget: target } = e;
+        const rect = target.getBoundingClientRect();
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        // Update CSS variables to track mouse position
+        target.style.setProperty("--mouse-x", `${x}px`);
+        target.style.setProperty("--mouse-y", `${y}px`);
+    };
+
+  return (
+    <div class='flex flex-col md:flex-row subpixel-antialiased'>
+
+        <Link class='glow-border-sm bg-w-2 dark:bg-g-5 border dark:border-g-1 box-shdw rounded-xl w-full md:w-[40%] md:h-[150px] mr-10 flex items-center justify-center' to='/projects/notes' onMouseMove={handleMouseMove}>
+            <img class='w-[90%] flex items-center justify-center' src={ mb1 } alt='iPad and iPhone Mockup' />
+        </Link>
+
+        <div class='info pt-4 md:pt-0 md:w-[60%]'>
+            <div class='title flex flex-row'>
+                <h2 class='font-medium tracking-wide'>Notes&nbsp; </h2>
+                <p class='text-L-2 dark:text-secondary-d font-thin'>·&nbsp;2024</p>
+            </div>
+            <p class='description text-third-d'>
+                An open source project that I started on April 2024 to learn the aspects of full-stack development...
+            </p>
+        </div>
+            
+    </div>
+  )
+}
+
+export default NotesSection

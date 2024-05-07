@@ -1,32 +1,32 @@
 import React, { } from 'react';
-import t1 from '../../assets/images/tech-stack/react.png';
-import t2 from '../../assets/images/tech-stack/tailwind.png';
-import t3 from '../../assets/images/tech-stack/nodejs.png';
-import t4 from '../../assets/images/tech-stack/js.png';
-import t5 from '../../assets/images/tech-stack/html.png';
-import t6 from '../../assets/images/tech-stack/css.png';
-import t7 from '../../assets/images/tech-stack/mysql.png';
-import t8 from '../../assets/images/tech-stack/java.png';
-import t9 from '../../assets/images/tech-stack/c-sharp.png';
-import t10 from '../../assets/images/tech-stack/git.png';
-import t11 from '../../assets/images/tech-stack/jira.png';
-import t12 from '../../assets/images/tech-stack/figma.png';
+import react from '../../assets/images/tech-stack/react.png';
+import tailwind from '../../assets/images/tech-stack/tailwind.png';
+import mongo from '../../assets/images/tech-stack/mongo.png';
+import express from '../../assets/images/tech-stack/express.png';
+import postman from '../../assets/images/tech-stack/postman-icon.svg';
+import nodejs from '../../assets/images/tech-stack/nodejs.png';
+import html from '../../assets/images/tech-stack/html.png';
+import css from '../../assets/images/tech-stack/css.png';
+import sql from '../../assets/images/tech-stack/sql.png';
+import java from '../../assets/images/tech-stack/java.png';
+import csharp from '../../assets/images/tech-stack/c-sharp.png';
+import git from '../../assets/images/tech-stack/git.png';
 import PropTypes from 'prop-types';
 
 function Techstack({ onHover }) {
     const techs = [
-        { src: t1, alt: 'React' },
-        { src: t2, alt: 'Tailwind CSS' },
-        { src: t3, alt: 'Node.js' },
-        { src: t4, alt: 'JavaScript' },
-        { src: t5, alt: 'HTML5' },
-        { src: t6, alt: 'CSS3' },
-        { src: t7, alt: 'MySQL' },
-        { src: t8, alt: 'Java' },
-        { src: t9, alt: 'C#' },
-        { src: t10, alt: 'Git' },
-        { src: t11, alt: 'Jira' },
-        { src: t12, alt: 'Figma' }
+        { src: react, alt: 'React' },
+        { src: tailwind, alt: 'Tailwind CSS' },
+        { src: mongo, alt: 'MongoDB' },
+        { src: express, alt: 'ExpressJS' },
+        { src: postman, alt: 'Postman' },
+        { src: nodejs, alt: 'Node.js' },
+        { src: html, alt: 'HTML' },
+        { src: css, alt: 'CSS' },
+        { src: sql, alt: 'SQL' },
+        { src: java, alt: 'Java' },
+        { src: csharp, alt: 'C#' },
+        { src: git, alt: 'Git' }
     ];
 
     return (
@@ -34,7 +34,7 @@ function Techstack({ onHover }) {
             <div className='grid grid-cols-3 sm:grid-cols-6 items gap-y-10 gap-x-10'>
                 {techs.map((tech, index) => (
                     <div key={index} onMouseOver={() => onHover(tech.alt)} onMouseOut={() => onHover('')}>
-                        <img className={`w-10 h-10 transition-transform transform md:hover:scale-125 mx-auto ${tech.alt === 'Tailwind CSS' || tech.alt === 'Figma' ? 'rounded-lg' : ''}`} src={tech.src} alt={tech.alt} />
+                        <img className={`w-10 h-10 transition-transform transform md:hover:scale-125 mx-auto ${tech.alt === 'Tailwind CSS' || tech.alt === 'Figma' ? 'rounded-lg' : '' || tech.alt === 'ExpressJS' ? 'bg-W-1 rounded-lg p-1 border' : ''}`} src={tech.src} alt={tech.alt} />
                     </div>
                 ))}
             </div>

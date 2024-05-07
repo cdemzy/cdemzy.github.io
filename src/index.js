@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-import About from './pages/About';
-import Gear from './pages/Gear';
+import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-import Blog from './pages/Blog';
 import FlappyBird from './pages/project-pages/FlappyBird';
+import NotesApp from './pages/project-pages/NotesApp';
 import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 
 const router = createBrowserRouter([
@@ -16,24 +15,20 @@ const router = createBrowserRouter([
     element: <App/>,
   },
   {
-    path: "about",
-    element: <About/>,
-  },
-  {
-    path: "gear",
-    element: <Gear/>,
-  },
-  {
     path: "projects",
     element: <Projects/>,
   },
   {
-    path: "blog",
-    element: <Blog/>,
+    path: "contact",
+    element: <Contact/>,
   },
   {
     path: "projects/flappybird",
     element: <FlappyBird/>,
+  },
+  {
+    path: "projects/notes",
+    element: <NotesApp/>,
   },
 ]);
 

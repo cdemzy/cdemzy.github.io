@@ -18,6 +18,16 @@
   --boxBgL: #e5e7eb;
 }
 
+@layer components{
+  .contact-input{
+    @apply p-4 border rounded-lg dark:border-g-1 dark:bg-g-2
+  }
+
+  .project-tags{
+    @apply bg-g-6 text-L-2 dark:bg-g-3 dark:text-g-7 py-2 px-4 rounded-lg text-sm transition-all duration-300 hover:scale-105
+  }
+}
+
 .pj-title{
   font-family: boldFont;
 }
@@ -28,10 +38,6 @@
   font-style: normal;
 }
 
-.App{
-  font-family: mainFont;
-  max-width: 100%;
-}
 
 h1{
   font-family: boldFont;
@@ -174,10 +180,6 @@ a{
   pointer-events: none;
 }
 
-@media screen and (max-width:768px){
-  
-}
-
 .navbar-list-drop {
   position: absolute;
   max-height: 0;
@@ -194,4 +196,21 @@ a{
       inset 0 8px 60px rgba(0,0,0,.1),
       inset 0 8px 8px rgba(0,0,0,.1),
       inset 0 -4px 4px rgba(0,0,0,.1);
+}
+
+@keyframes blink {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.mobile-views::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
 }

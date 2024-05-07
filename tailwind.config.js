@@ -5,6 +5,9 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
+    fontFamily: {
+      custom: ['SF-Pro', 'sans'],
+    },
     extend: {
       colors: {
         'g-1': '#2a2a2a',

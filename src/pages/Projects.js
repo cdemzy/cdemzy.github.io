@@ -1,9 +1,10 @@
 import React, {useEffect} from 'react'
-import Header from '../components/Header'
+import Header from '../components/navbar/Navbar'
 import { Helmet } from 'react-helmet'
 
 import FlappySection from '../components/project-sections/FlappySection';
 import PortfolioSection from '../components/project-sections/PortfolioSection';
+import NotesSection from '../components/project-sections/NotesSection';
 
 function Projects() {
 
@@ -12,7 +13,7 @@ function Projects() {
     }, []);
     
     return (
-        <div class="App w-[375px] sm:w-[630px] md:w-[700px] mx-auto h-screen dark:bg-black text-L-1 dark:text-primary-d">
+        <div class="App w-[375px] sm:w-[630px] md:w-[700px] mx-auto h-screen dark:bg-black text-L-1 dark:text-primary-d pb-[101vh]">
             <Helmet>
                 <title>Projects</title>
             </Helmet>
@@ -21,20 +22,22 @@ function Projects() {
                 <Header/>
             </header>
 
-            <main class="animate-in pt-36 pb-[500px] md:pb-[900px] w-full sm:w-[630px] md:w-[700px] px-6 sm:px-0">
+            <main class="animate-in pt-36 w-full sm:w-[630px] md:w-[700px] px-6 sm:px-0 pb-10 md:pb-0">
                 <h1 className='animate-in text-h1-L dark:text-primary-d font-semibold'>Projects</h1>
                 <p class="animate-in text-L-2 dark:text-secondary-d" style={{ '--index': 1 }}>Work Collection.</p>
 
+                <section class='work-apps mt-10 flex flex-row'>
+                    <NotesSection/>
+                    <PortfolioSection/>
+                </section>
+
                 <section class='work-games mt-12 flex flex-col'>
-                    {/* <p class='mb-5'>Games</p> */}
                     <section class='games-list'>
                         <FlappySection/>
                     </section>
                 </section>
 
-                <section class='work-apps mt-10 flex flex-row'>
-                    <PortfolioSection/>
-                </section>
+                
 
             </main>
 

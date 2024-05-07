@@ -14,9 +14,9 @@ function PhotoStack() {
         <div className='main-one flex flex-row'>
             <div class="1st-pic hidden md:block transition-transform transform hover:scale-110">
                 <div class="group h-72 w-56 [perspective:1000px] -ml-[80px] sm:-ml-[20px] sm:-mr-[50px]" style={{ transform: 'rotate(-10deg)' }}>
-                    <div class="pic-con relative h-full w-full rounded-2xl shadow-2xl transition-all duration-200 [transform-style:perspective-3d] group-hover:[transform:rotateY(180deg)]">
-                        <img class="absolute inset-0 h-full w-full rounded-2xl object-cover transform scale-x-[-1]" src={ backImageHarajuku } alt='grand canyon back'/>
-                        <img class="w-full h-full rounded-2xl shadow-xl [transform-rotateY(180deg)] group-hover:opacity-0" src={ harajuku } alt='grand canyon'/>
+                    <div class="pic-con relative h-full w-full rounded-2xl shadow-xl transition-all duration-200 [transform-style:perspective-3d] group-hover:[transform:rotateY(180deg)]">
+                        <img class="absolute inset-0 h-full w-full rounded-2xl object-cover transform scale-x-[-1]" src={ backImageHarajuku } alt='harajuku back'/>
+                        <img class="w-full h-full rounded-2xl [transform-rotateY(180deg)] group-hover:opacity-0" src={ harajuku } alt='harajuku'/>
                     </div>
                 </div>
             </div>

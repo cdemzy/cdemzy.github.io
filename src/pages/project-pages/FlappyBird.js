@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Header from '../../components/Header'
+import Header from '../../components/navbar/Navbar'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom';
 import MockupFlappy1 from '../../assets/images/projects/flappybird/Mockup-Flappy1.png'
@@ -32,7 +32,7 @@ function FlappyBird() {
             </header>
 
             <main class="animate-in pt-24 w-[375px] sm:w-[630px] md:w-[700px] mx-auto px-6 sm:px-0 pb-20">
-                <p class="animate-in text-L-2 dark:text-secondary-d">2024 · <a class='hover:underline' href='https://github.com/cdemzy/Flappy-Bird' target='_blank' rel="noreferrer">Visit Project</a> </p>
+                <p class="animate-in text-L-2 dark:text-secondary-d">2024 · <a class='hover:underline' href='https://github.com/cdemzy/Flappy-Bird' target='_blank' rel="noreferrer">Visit Repository</a> </p>
                 <h1 className='animate-in text-h1-L dark:text-primary-d font-semibold'>Flappy Bird</h1>
 
                 <p class='description text-third-d dark:text-secondary-d pt-4 pb-10'>
@@ -55,12 +55,12 @@ function FlappyBird() {
 
                 <section class='mt-10'>
                     <p class=''>Tags</p>
-                    <div className="flex flex-wrap gap-2 pt-3 transition-opacity">
-                        <p className={`bg-g-6 text-L-2 dark:bg-g-3 dark:text-g-7 py-2 px-4 rounded-lg text-sm ${hoveredIndex === null || hoveredIndex === 0 ? 'opacity-100' : 'opacity-50'}`} onMouseOver={() => handleMouseOver(0)} onMouseOut={handleMouseOut}>Game Development</p>
-                        <p className={`bg-g-6 text-L-2 dark:bg-g-3 dark:text-g-7 py-2 px-4 rounded-lg text-sm ${hoveredIndex === null || hoveredIndex === 1 ? 'opacity-100' : 'opacity-50'}`} onMouseOver={() => handleMouseOver(1)} onMouseOut={handleMouseOut}>Open Source</p>
-                        <p className={`bg-g-6 text-L-2 dark:bg-g-3 dark:text-g-7 py-2 px-4 rounded-lg text-sm ${hoveredIndex === null || hoveredIndex === 2 ? 'opacity-100' : 'opacity-50'}`} onMouseOver={() => handleMouseOver(2)} onMouseOut={handleMouseOut}>Unity</p>
-                        <p className={`bg-g-6 text-L-2 dark:bg-g-3 dark:text-g-7 py-2 px-4 rounded-lg text-sm ${hoveredIndex === null || hoveredIndex === 3 ? 'opacity-100' : 'opacity-50'}`} onMouseOver={() => handleMouseOver(3)} onMouseOut={handleMouseOut}>C#</p>
-                    </div>
+                    <ul className="flex flex-wrap gap-2 pt-3 transition-opacity h-full">
+                        <li className={`project-tags ${hoveredIndex === null || hoveredIndex === 0 ? 'opacity-100' : 'opacity-50'}`} onMouseOver={() => handleMouseOver(0)} onMouseOut={handleMouseOut}>Game Development</li>
+                        <li className={`project-tags ${hoveredIndex === null || hoveredIndex === 1 ? 'opacity-100' : 'opacity-50'}`} onMouseOver={() => handleMouseOver(1)} onMouseOut={handleMouseOut}>Open Source</li>
+                        <li className={`project-tags ${hoveredIndex === null || hoveredIndex === 2 ? 'opacity-100' : 'opacity-50'}`} onMouseOver={() => handleMouseOver(2)} onMouseOut={handleMouseOut}>Unity</li>
+                        <li className={`project-tags ${hoveredIndex === null || hoveredIndex === 3 ? 'opacity-100' : 'opacity-50'}`} onMouseOver={() => handleMouseOver(3)} onMouseOut={handleMouseOut}>C#</li>
+                    </ul>
                 </section>
 
                 <Link class='mt-10 hover flex items-center hover:border-b border-gray-500 w-max' to='/projects'><ion-icon name="arrow-back-outline"></ion-icon>&nbsp;Back to Projects</Link>

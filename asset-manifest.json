@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f68f8c7.css",
-    "main.js": "/static/js/main.d6cd3f5b.js",
+    "main.css": "/static/css/main.ae61a97b.css",
+    "main.js": "/static/js/main.ce1e17e9.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/SF-Pro-Bold.otf": "/static/media/SF-Pro-Bold.0edd1bada269d5887ee1.otf",
     "static/media/SF-Pro.otf": "/static/media/SF-Pro.8d787d56b24a91d245f1.otf",
@@ -19,6 +19,7 @@
     "static/media/back-paper-brooklyn.jpg": "/static/media/back-paper-brooklyn.19fa084a79579c75b536.jpg",
     "static/media/back-paper-stock-harajuku.jpg": "/static/media/back-paper-stock-harajuku.afc65a5a68ba90575a26.jpg",
     "static/media/back-paper-hoover.jpg": "/static/media/back-paper-hoover.8edb5fd6ef18937e4f61.jpg",
+    "static/media/rocket.png": "/static/media/rocket.1be67ca61ead831198d5.png",
     "static/media/back-paper-tree.jpg": "/static/media/back-paper-tree.a138126daca140646576.jpg",
     "static/media/mongo.png": "/static/media/mongo.4f4547ad3adc28a94db9.png",
     "static/media/iP-M2.png": "/static/media/iP-M2.581b376c1de0c6ea369c.png",
@@ -35,12 +36,12 @@
     "static/media/express.png": "/static/media/express.e3d4f9e5c8b469e45838.png",
     "static/media/dal-logo.png": "/static/media/dal-logo.a6ac224a6c0b04547cb8.png",
     "index.html": "/index.html",
-    "main.6f68f8c7.css.map": "/static/css/main.6f68f8c7.css.map",
-    "main.d6cd3f5b.js.map": "/static/js/main.d6cd3f5b.js.map",
+    "main.ae61a97b.css.map": "/static/css/main.ae61a97b.css.map",
+    "main.ce1e17e9.js.map": "/static/js/main.ce1e17e9.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f68f8c7.css",
-    "static/js/main.d6cd3f5b.js"
+    "static/css/main.ae61a97b.css",
+    "static/js/main.ce1e17e9.js"
   ]
 }
